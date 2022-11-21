@@ -127,21 +127,21 @@ while running:
                 # pygame.display.update()
 
                 
-                surface1 = pygame.Surface((100,100))
-                surface1.set_colorkey((0,0,0))  # use `(0,0,0)` (black color) as transparent color
-                surface1.set_alpha(128)  # transparency 50% for other colors
-                pygame.draw.circle(screen, (0,0,0), PREV_F, 50)
+                # surface1 = pygame.Surface((100,100))
+                # surface1.set_colorkey((0,0,0))  # use `(0,0,0)` (black color) as transparent color
+                # surface1.set_alpha(128)  # transparency 50% for other colors
+                # pygame.draw.circle(screen, (0,0,0), PREV_F, 50)
 
-                # screen.blit(surface1, PREV_F)
-                pygame.display.update()
+                # # screen.blit(surface1, PREV_F)
+                # pygame.display.update()
 
-                surface2 = pygame.Surface((100,100))
-                surface2.set_colorkey((0,0,0))  # use `(0,0,0)` (black color) as transparent color
-                surface2.set_alpha(128)  # transparency 50% for other colors
-                pygame.draw.circle(surface2, (0,255,0), PRESENT_F, 50)
+                # surface2 = pygame.Surface((100,100))
+                # surface2.set_colorkey((0,0,0))  # use `(0,0,0)` (black color) as transparent color
+                # surface2.set_alpha(128)  # transparency 50% for other colors
+                # pygame.draw.circle(surface2, (0,255,0), PRESENT_F, 50)
 
-                screen.blit(surface2, PRESENT_F)
-                pygame.display.update()
+                # screen.blit(surface2, PRESENT_F)
+                # pygame.display.update()
 
                 pygame.draw.line(screen, (55,15,150), PREV_F,PRESENT_F, 4)
                 pygame.draw.line(screen, (24,200,255), PREV_B,PRESENT_B, 4)
